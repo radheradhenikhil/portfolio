@@ -9,11 +9,11 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © 2025 <strong>Made With ❤️ With Radhe Nikhil</strong>.
+          © 2025 <strong>Made With ❤️ With Priyanshu</strong>.
         </p>
 
         <div className='flex gap-3 justify-center items-center'>
-          {socialLinks.map((link) => (
+          {/* {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>
               <img
                 src={link.iconUrl}
@@ -21,7 +21,7 @@ const Footer = () => {
                 className='w-6 h-6 object-contain'
               />
             </Link>
-          ))}
+          ))} */}
         </div>
       </div>
     </footer>
